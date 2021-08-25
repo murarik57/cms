@@ -1,0 +1,8 @@
+{
+    "name": "isple/cms",
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "pusher/pusher-php-server": "^7.0",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
