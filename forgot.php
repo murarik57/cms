@@ -56,7 +56,7 @@
                       
             
 //¿Qué piensas del español? spanish text for utf encoding
-        $mail->setFrom('keedabakchod@gmail.com', 'Black Box CMS');
+        $mail->setFrom('sender email', 'Black Box CMS');
         $mail->addAddress($email);     //Add a recipient
         $mail->Subject = 'Password Reset Link';
 $mail->Body    = '<p>Click on the link to reset your Password: <a href="http://localhost/cms/reset.php?email='.$email.'&token='.$token.'">http://localhost/cms/reset.php?email='.$email.'&token='.$token.'</a></p>';
